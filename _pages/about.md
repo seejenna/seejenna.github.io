@@ -23,13 +23,3 @@ My research interest includes wireless networking.
 
 # 📖 Educations
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.
-
-# 🔥 News
-
-# 📝 Publications 
-
-# 🎖 Honors and Awards
-
-# 💬 Invited Talks
-  
-# 💻 Internships
