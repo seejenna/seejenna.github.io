@@ -21,6 +21,17 @@ I'm an incomming PhD student in computer science department of Princeton Univers
 
 My research interest includes wireless networking. 
 
+# 🔥 News
+
+# 📝 Publications 
+
+# 🎖 Honors and Awards
+
+# 💬 Invited Talks
+
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+
+  
+# 💻 Internships
