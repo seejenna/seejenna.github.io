@@ -21,6 +21,9 @@ I'm an incomming PhD student in computer science department of Princeton Univers
 
 My research interest includes wireless networking. 
 
+# 📖 Educations
+- *2020.9 - 2024.6*, Nanjing University, Nanjing, China.
+
 # 🔥 News
 
 # 📝 Publications 
@@ -28,9 +31,5 @@ My research interest includes wireless networking.
 # 🎖 Honors and Awards
 
 # 💬 Invited Talks
-
-# 📖 Educations
-- *2020.9 - 2024.6*, Nanjing University, Nanjing, China.
-
   
 # 💻 Internships
