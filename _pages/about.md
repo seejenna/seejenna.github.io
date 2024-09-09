@@ -22,7 +22,7 @@ I'm an incomming PhD student in computer science department of Princeton Univers
 My research interest includes wireless networking. 
 
 # 📖 Educations
-- *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, China.
+- *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.
   Ph. D. in Computer Science
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.
   B. E. in Telecommunications Engineering
