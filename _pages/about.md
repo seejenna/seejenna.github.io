@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm an incomming PhD student in computer science department of Princeton University, advised by [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I'm a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
+I'm a first-year PhD student in computer science department of Princeton University, advised by [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I'm a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
 
 My research interest includes wireless networking. 
 
 # 📖 Educations
-- *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.
+- *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.<br>
   Ph. D. in Computer Science
-- *2020.9 - 2024.6*, Nanjing University, Nanjing, China.
+- *2020.9 - 2024.6*, Nanjing University, Nanjing, China.<br>
   B. E. in Telecommunications Engineering
