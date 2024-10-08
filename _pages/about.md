@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👻 About Me
 I'm a first-year PhD student in computer science department of Princeton University, advised by [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I was a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
 
 My research interest includes wireless networking. 
