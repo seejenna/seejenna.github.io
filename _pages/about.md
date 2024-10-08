@@ -28,5 +28,5 @@ My research interest includes wireless networking.
   B. E. in Telecommunications Engineering
 
 # 📊 Research
-- *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/)<br>
-- *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS)
+- *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/), Princeton University. <br>
+- *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS), Nanjing University.
