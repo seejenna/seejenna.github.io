@@ -31,3 +31,11 @@ My research interest includes wireless networking.
 # 📊 Research
 - *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/), Princeton University. <br>
 - *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS), Nanjing University.
+
+# 🎧 Hobbies
+- Music: Pianos.<br>
+  My favorite long music: <br>
+  [Chopin Piano Concerto No. 1](https://www.youtube.com/watch?v=UcOjKXIR8Iw)<br>
+  [Rachmaninoff Piano Concerto No. 2]()<br>
+  [Tchaikovsky Piano Concerto No. 1]()<br>
+- Hiking.
