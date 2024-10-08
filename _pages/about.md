@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year PhD student in computer science department of Princeton University, advised by [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I'm a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
+I'm a first-year PhD student in computer science department of Princeton University, advised by [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I was a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
 
 My research interest includes wireless networking. 
 
@@ -26,3 +26,7 @@ My research interest includes wireless networking.
   Ph. D. in Computer Science
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.<br>
   B. E. in Telecommunications Engineering
+
+# 📊 Research
+- *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/)<br>
+- *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS)
