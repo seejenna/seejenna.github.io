@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👻 About Me
-I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a first-year PhD student in computer science department of Princeton University, working with [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Before that, I was a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
+I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a first-year PhD student in computer science department of Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was a bachelor student in Nanjing University, majoring in telecommmunications engineering. 
 
-My research interest includes wireless networking. 
+My research interest includes dsitributed systems. 
 
 # 📖 Educations
 - *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.<br>
@@ -29,6 +29,7 @@ My research interest includes wireless networking.
   B. E. in Telecommunications Engineering
 
 # 📊 Research
+- *2025.4 - present*, [Princeton SNS Group](https://sns.cs.princeton.edu/), Princeton University. <br>
 - *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/), Princeton University. <br>
 - *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS), Nanjing University.
 
