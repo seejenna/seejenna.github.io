@@ -30,7 +30,7 @@ My research interest includes dsitributed systems.
 
 # 📊 Research
 - *2025.4 - present*, [Princeton SNS Group](https://sns.cs.princeton.edu/), Princeton University. <br>
-- *2024.8 - present*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/), Princeton University. <br>
+- *2024.8 - 2025.4*, [Princeton Advanced Wireless Systems (PAWS)](https://paws.princeton.edu/), Princeton University. <br>
 - *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS), Nanjing University.
 
 # 🎧 Hobbies
