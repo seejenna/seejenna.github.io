@@ -7,7 +7,7 @@ main:
     url: "/#-educations"
 
   - title: "Hobbies"
-    url: "/$-hobbies"
+    url: "/#-hobbies"
 
 #  - title: "Research"
 #    url: "/#-research"
