@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👻 About Me
-I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a first-year PhD student in computer science department of Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was a bachelor student in school of Electronic Science and Engineering, Nanjing University. 
+I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a second-year PhD student in computer science department of Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was a bachelor student in school of Electronic Science and Engineering, Nanjing University. 
 
 My research interest includes dsitributed systems. 
 
