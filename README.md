@@ -65,6 +65,16 @@ Some examples:
 1. If you change the source code of the website, the livereload server will automatically refresh.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
+## Build the Resume Locally
+
+The LaTeX source is stored in `resume/Zijian_Qin_Resume.tex`, and the generated PDF is published at `files/Zijian_Qin_Resume.pdf`.
+
+1. Install [Tectonic](https://tectonic-typesetting.github.io/book/latest/installation/).
+1. Run `make resume` from the repository root to compile the PDF once.
+1. For an automatic preview loop, open the repository in VS Code and install the recommended [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension.
+1. Open `resume/Zijian_Qin_Resume.tex`, then run **LaTeX Workshop: View LaTeX PDF file** from the Command Palette (`Ctrl+Alt+V` by default). Keep that preview tab open; every subsequent save recompiles the resume and refreshes the preview.
+1. Commit both the LaTeX source and generated PDF when the resume is ready to publish.
+
 # Acknowledges
 
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.

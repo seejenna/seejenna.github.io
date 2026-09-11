@@ -1,0 +1,47 @@
+% !TEX program = tectonic
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.15em,topsep=0.25em}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\
+  \textit{#3}\hfill \textit{#4}\par
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Zijian Qin}\\[0.35em]
+  Princeton, NJ, USA \enspace $\vert$ \enspace
+  \href{mailto:qingjian132@outlook.com}{qingjian132@outlook.com} \enspace $\vert$ \enspace
+  \href{https://www.linkedin.com/in/zijian-qin-b04a27294/}{LinkedIn} \enspace $\vert$ \enspace
+  \href{https://scholar.google.com/citations?user=pTiQlYgAAAAJ}{Google Scholar}
+\end{center}
+
+\section{Research Interests}
+Distributed systems.
+
+\section{Education}
+\entry{Princeton University}{Princeton, NJ, USA}
+      {Ph.D. in Computer Science}{August 2024 -- July 2029 (expected)}
+\begin{itemize}
+  \item Advisor: Prof. Wyatt Lloyd.
+\end{itemize}
+
+\entry{Nanjing University}{Nanjing, China}
+      {B.E. in Telecommunications Engineering}{September 2020 -- June 2024}
+
+\section{Additional Interests}
+Piano, hiking, and city walks.
+
+\end{document}
