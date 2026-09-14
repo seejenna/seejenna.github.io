@@ -110,9 +110,12 @@
   \end{tabularx}%
 }
 
-% Education block: institution followed by one or more \dateditem entries.
-\newcommand{\school}[1]{%
-  \par\vspace{2pt}{\fontsize{11}{12}\selectfont\bfseries #1}\par\vspace{-1pt}%
+% Education block: institution/location followed by \dateditem entries.
+\newcommand{\school}[2]{%
+  \par\vspace{2pt}%
+  \datedline{{\fontsize{11}{12}\selectfont\bfseries #1}}%
+            {{\fontsize{11}{12}\selectfont #2}}\par
+  \vspace{-1pt}%
 }
 \newcommand{\dateditem}[2]{%
   \item \datedline{#1}{#2}
@@ -142,19 +145,20 @@
 \newcommand{\me}{\textbf{Zijian Qin}}
 \newcommand{\paperlink}[1]{\href{#1}{[paper]}}
 \newcommand{\codelink}[1]{\href{#1}{[code]}}
+\newcommand{\slideslink}[1]{\href{#1}{[slides]}}
 
 \begin{document}
 \makeheader
 
 \resumesection{Education}
 
-\school{Princeton University}
+\school{Princeton University}{Princeton, NJ, USA}
 \begin{itemize}
   \dateditem{Ph.D. in Computer Science, advised by Prof. Wyatt Lloyd}
             {08/2024 -- 05/2029}
 \end{itemize}
 
-\school{Nanjing University}
+\school{Nanjing University}{Nanjing, Jiangsu, China}
 \begin{itemize}
   \dateditem{B.Eng. in Electronic Science and Engineering, GPA: 4.59/5.00 (top 1\%)}
             {09/2020 -- 07/2024}
@@ -170,6 +174,7 @@
     \textbf{Best Paper Award.}
     \paperlink{https://doi.org/10.1145/3767295.3803615}
     \codelink{https://github.com/princeton-sns/Avicenna-eurosys2026}
+    \slideslink{https://seejenna.github.io/files/avicenna.pdf}
 
   \item Xinle Jia, Yangcan Zhou, \me, Jingjing Zhu, and Zhongfeng Wang.
     ``Reduced Complexity Dynamic Schedule for Layered Decoding of LDPC
@@ -209,6 +214,7 @@
     \textbf{[EuroSys '26]}
     \paperlink{https://doi.org/10.1145/3767295.3803615}
     \codelink{https://github.com/princeton-sns/Avicenna-eurosys2026}
+    \slideslink{https://seejenna.github.io/files/avicenna.pdf}
     \begin{itemize}
       \item Designed a counterfactual evaluation mechanism to detect the slow leader. 
       \item Optimized the leader rotation protocol to reduce the overhead of leader changes.

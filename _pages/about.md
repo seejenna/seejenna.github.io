@@ -22,13 +22,29 @@ I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a t
 
 [Resume (PDF)](/files/Zijian_Qin_Resume.pdf)
 
-My research interest includes dsitributed systems. 
+My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems.
 
 # 📖 Educations
 - *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.<br>
   Ph. D. in Computer Science
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.<br>
   B. E. in Telecommunications Engineering
+
+<span class='anchor' id='research-projects'></span>
+
+# 🔬 Research Projects
+
+## Princeton University
+
+- **Avicenna** — *EuroSys 2026, Best Paper Award*<br>
+  A replicated state machine protocol that tolerates a slow replica without sacrificing normal-case latency. We designed a counterfactual evaluation mechanism to detect a slow leader and optimized the leader-rotation protocol to reduce the overhead of leader changes.<br>
+  [[Paper]](https://doi.org/10.1145/3767295.3803615) [[Code]](https://github.com/princeton-sns/Avicenna-eurosys2026) [[Slides]](/files/avicenna.pdf)
+
+- **Geo-distributed replicated state machines** — *Ongoing*<br>
+  A geo-distributed replicated state machine protocol that supports low-latency, linearizable local reads.
+
+- **Agentic workflows for systems evaluation** — *Ongoing*<br>
+  An agentic workflow system designed to make distributed-systems evaluation more realistic.
 
 <!--# 📊 Research-->
 <!--- *2025.4 - present*, [Princeton SNS Group](https://sns.cs.princeton.edu/), Princeton University. <br>-->
