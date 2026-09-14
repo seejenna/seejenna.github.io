@@ -18,17 +18,17 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👻 About Me
-I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a third-year PhD student in computer science department of Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was a bachelor student in school of Electronic Science and Engineering, Nanjing University. 
+I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a third-year PhD student in the department of computer science at Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was an undergraduate student in the school of Electronic Science and Engineering at Nanjing University. 
 
 [Resume (PDF)](/files/Zijian_Qin_Resume.pdf)
 
 My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems.
 
-# 📖 Educations
-- *2024.8 - 2029.7 (expected)*, Princeton University, Princeton, NJ, USA.<br>
-  Ph. D. in Computer Science
+# 📖 Education
+- *2024.8 - 2029.5 (expected)*, Princeton University, Princeton, NJ, USA.<br>
+  Ph.D. in Computer Science
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.<br>
-  B. E. in Telecommunications Engineering
+  B.E. in Telecommunications Engineering
 
 <span class='anchor' id='research-projects'></span>
 
@@ -38,7 +38,7 @@ My research focuses on the design, implementation, and evaluation of efficient a
 
 - **Avicenna** — *EuroSys 2026, Best Paper Award*<br>
   A replicated state machine protocol that tolerates a slow replica without sacrificing normal-case latency. We designed a counterfactual evaluation mechanism to detect a slow leader and optimized the leader-rotation protocol to reduce the overhead of leader changes.<br>
-  [[Paper]](https://doi.org/10.1145/3767295.3803615) [[Code]](https://github.com/princeton-sns/Avicenna-eurosys2026) [[Slides]](/files/avicenna.pdf)
+  [[Paper]](/files/paper_avicenna.pdf) [[Code]](https://github.com/princeton-sns/Avicenna-eurosys2026) [[Slides]](/files/avicenna.pdf)
 
 - **Geo-distributed replicated state machines** — *Ongoing*<br>
   A geo-distributed replicated state machine protocol that supports low-latency, linearizable local reads.
@@ -52,9 +52,9 @@ My research focuses on the design, implementation, and evaluation of efficient a
 <!--- *2022.8 - 2024.7*, Intelligent Circuits and Intelligent Systems (ICAIS), Nanjing University.-->
 
 # 🎧 Hobbies
-- Music: Pianos.<br>
+- Music: Piano.<br>
   My favorite concertos: <br>
   [Chopin Piano Concerto No. 1](https://www.youtube.com/watch?v=UcOjKXIR8Iw)<br>
   [Rachmaninoff Piano Concerto No. 2](https://www.youtube.com/watch?v=l4zkc7KEvYM)<br>
   [Tchaikovsky Piano Concerto No. 1](https://www.youtube.com/watch?v=hNfpMRSCFPE)<br>
-- Hiking, Citywalk.
+- Hiking and city walks.
