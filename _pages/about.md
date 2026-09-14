@@ -18,11 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👻 About Me
-I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a third-year PhD student in the department of computer science at Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was an undergraduate student in the school of Electronic Science and Engineering at Nanjing University. 
+I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a third-year PhD student in the department of Computer Science at Princeton University, working with [Prof. Wyatt Lloyd](https://www.cs.princeton.edu/~wlloyd/). Before that, I was an undergraduate student in the school of Electronic Science and Engineering at Nanjing University. 
 
 [Resume (PDF)](/files/Zijian_Qin_Resume.pdf)
 
-My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems.
+My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems. My recent projects focus on replicated state machines (RSMs), a core building block for distributed systems. My goal is to make RSMs run fast by tolerating a slow replica (Avicenna) and enabling low-latency local reads at a follower (onging). I'm also interested in systems for machine learning. 
 
 # 📖 Education
 - *2024.8 - 2029.5 (expected)*, Princeton University, Princeton, NJ, USA.<br>
