@@ -22,7 +22,7 @@ I'm Zijian Qin (秦子健, approximately pronounced as *Zee-Jane Chin*). I'm a t
 
 [Resume (PDF)](/files/Zijian_Qin_Resume.pdf)
 
-My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems. My recent projects focus on replicated state machines (RSMs), a core building block for distributed systems. My goal is to make RSMs run fast by tolerating a slow replica (Avicenna) and enabling low-latency local reads at a follower (onging). I'm also interested in systems for machine learning. 
+My research focuses on the design, implementation, and evaluation of efficient and practical distributed systems. My recent projects focus on replicated state machines (RSMs), a core building block of distributed systems. My goal is to make RSMs faster by enabling them to tolerate slow replicas (Avicenna) and support low-latency local reads at follower replicas (ongoing). I'm also interested in systems for machine learning, particularly in two directions: (1) how systems should be designed when AI agents, rather than humans, are the primary users; and (2) how infrastructure can be optimized to make model training and inference more efficient. 
 
 # 📖 Education
 - *2024.8 - 2029.5 (expected)*, Princeton University, Princeton, NJ, USA.<br>
