@@ -1,47 +1,272 @@
-% !TEX program = tectonic
 \documentclass[10pt,letterpaper]{article}
 
-\usepackage[margin=0.65in]{geometry}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{titlesec}
+% This template recreates the visual structure of the reference resume:
+% a colored first-page banner, compact academic sections, right-aligned
+% dates, publication bullets, and nested research descriptions.
+
+\usepackage[
+  letterpaper,
+  left=0.55in,
+  right=0.55in,
+  top=0.38in,
+  bottom=0.42in,
+  footskip=0.24in
+]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
 \usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
 
-\pagestyle{empty}
+% ---------- Colors ----------
+\definecolor{linkblue}{HTML}{1857B6}
+\definecolor{rulegray}{HTML}{555555}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue,
+  pdfauthor={Your Name},
+  pdftitle={Your Name -- Resume}
+}
+\urlstyle{same}
+
+% ---------- Personal information: edit these fields ----------
+\newcommand{\ResumeName}{Zijian Qin}
+\newcommand{\ResumeWebsite}{Website}
+\newcommand{\ResumeWebsiteURL}{https://seejenna.github.io}
+\newcommand{\ResumeEmail}{zjqin@princeton.edu}
+\newcommand{\ResumeScholarURL}{https://scholar.google.com/citations?hl=en\&user=pTiQlYgAAAAJ}
+\newcommand{\ResumeLinkedInURL}{https://www.linkedin.com/in/zijian-qin-b04a27294}
+
+% ---------- Global formatting ----------
 \setlength{\parindent}{0pt}
-\setlist[itemize]{leftmargin=1.25em,itemsep=0.15em,topsep=0.25em}
-\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
-\titlespacing*{\section}{0pt}{0.8em}{0.4em}
-
-\newcommand{\entry}[4]{%
-  \textbf{#1}\hfill #2\\
-  \textit{#3}\hfill \textit{#4}\par
+\setlength{\parskip}{0pt}
+\pagestyle{plain}
+\renewcommand{\thepage}{\arabic{page}}
+\setlist[itemize,1]{
+  label=\textbullet,
+  leftmargin=1.55em,
+  itemsep=2.2pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+\setlist[itemize,2]{
+  label=--,
+  leftmargin=2.05em,
+  itemsep=1.5pt,
+  topsep=1.5pt,
+  parsep=0pt,
+  partopsep=0pt
 }
 
+% Monochrome header used only on the first page.
+\newcommand{\makeheader}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[
+      anchor=north,
+      text=black,
+      font=\fontsize{29}{33}\selectfont
+    ] at ([yshift=-0.27in]current page.north) {\ResumeName};
+    \node[
+      anchor=north,
+      text=black,
+      font=\bfseries\fontsize{10.5}{12}\selectfont
+    ] at ([yshift=-0.82in]current page.north) {%
+      \faHome\enspace
+      \href{\ResumeWebsiteURL}{\textcolor{black}{\ResumeWebsite}}
+      \quad\rule[-0.3ex]{0.4pt}{1.5ex}\quad
+      \faEnvelope\enspace
+      \href{mailto:\ResumeEmail}{\textcolor{black}{\ResumeEmail}}
+      \quad\rule[-0.3ex]{0.4pt}{1.5ex}\quad
+      \faGraduationCap\enspace
+      \href{\ResumeScholarURL}{\textcolor{black}{Google Scholar}}
+      \quad\rule[-0.3ex]{0.4pt}{1.5ex}\quad
+      \faLinkedin\enspace
+      \href{\ResumeLinkedInURL}{\textcolor{black}{LinkedIn}}%
+    };
+  \end{tikzpicture}%
+  \vspace*{0.60in}%
+}
+
+% Uppercase section heading with the thin rule used in the reference.
+\newcommand{\resumesection}[1]{%
+  \par\vspace{4pt}%
+  {\fontsize{12.3}{13.5}\selectfont\bfseries\MakeUppercase{#1}}\par
+  \vspace{0.5pt}%
+  {\color{rulegray}\hrule height 0.45pt}%
+  \vspace{2pt}%
+}
+
+% A line whose date stays flush with the right margin.
+\newcommand{\datedline}[2]{%
+  \begin{tabularx}{\linewidth}[t]{@{}Xr@{}}
+    #1 & #2
+  \end{tabularx}%
+}
+
+% Education block: institution followed by one or more \dateditem entries.
+\newcommand{\school}[1]{%
+  \par\vspace{2pt}{\fontsize{11}{12}\selectfont\bfseries #1}\par\vspace{-1pt}%
+}
+\newcommand{\dateditem}[2]{%
+  \item \datedline{#1}{#2}
+}
+
+% Experience block: organization/location, followed by role/date.
+\newcommand{\experience}[4]{%
+  \par\vspace{5pt}%
+  \datedline{{\fontsize{10.8}{12}\selectfont\bfseries #1}}%
+            {{\fontsize{10.8}{12}\selectfont #2}}\par
+  \vspace{-1pt}%
+  \datedline{\textit{#3}}{\textit{#4}}\par
+  \vspace{-4pt}%
+}
+\newenvironment{experienceitems}{%
+  \begin{itemize}[
+    label=--,
+    leftmargin=1.55em,
+    itemsep=2.2pt,
+    topsep=2pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]%
+}{\end{itemize}}
+
+% Publication helpers.
+\newcommand{\me}{\textbf{Zijian Qin}}
+\newcommand{\paperlink}[1]{\href{#1}{[paper]}}
+\newcommand{\codelink}[1]{\href{#1}{[code]}}
+
 \begin{document}
+\makeheader
 
-\begin{center}
-  {\LARGE\bfseries Zijian Qin}\\[0.35em]
-  Princeton, NJ, USA \enspace $\vert$ \enspace
-  \href{mailto:qingjian132@outlook.com}{qingjian132@outlook.com} \enspace $\vert$ \enspace
-  \href{https://www.linkedin.com/in/zijian-qin-b04a27294/}{LinkedIn} \enspace $\vert$ \enspace
-  \href{https://scholar.google.com/citations?user=pTiQlYgAAAAJ}{Google Scholar}
-\end{center}
+\resumesection{Education}
 
-\section{Research Interests}
-Distributed systems.
-
-\section{Education}
-\entry{Princeton University}{Princeton, NJ, USA}
-      {Ph.D. in Computer Science}{August 2024 -- July 2029 (expected)}
+\school{Princeton University}
 \begin{itemize}
-  \item Advisor: Prof. Wyatt Lloyd.
+  \dateditem{Ph.D. in Computer Science, advised by Prof. Wyatt Lloyd}
+            {08/2024 -- 05/2029}
 \end{itemize}
 
-\entry{Nanjing University}{Nanjing, China}
-      {B.E. in Telecommunications Engineering}{September 2020 -- June 2024}
+\school{Nanjing University}
+\begin{itemize}
+  \dateditem{B.Eng. in Electronic Science and Engineering, GPA: 4.59/5.00 (top 1\%)}
+            {09/2020 -- 07/2024}
+\end{itemize}
 
-\section{Additional Interests}
-Piano, hiking, and city walks.
+\resumesection{Publications}
+\begin{itemize}
+  \item Christopher Hodsdon, \me, Khiem Ngo, Siddhartha Sen,
+    Ethan Katz-Bassett, and Wyatt Lloyd.
+    ``Avicenna: Masking Slowdowns in Replicated State Machines with
+    Counterfactual Evaluation.''
+    \textit{In EuroSys 2026.}
+    \textbf{Best Paper Award.}
+    \paperlink{https://doi.org/10.1145/3767295.3803615}
+    \codelink{https://github.com/princeton-sns/Avicenna-eurosys2026}
+
+  \item Xinle Jia, Yangcan Zhou, \me, Jingjing Zhu, and Zhongfeng Wang.
+    ``Reduced Complexity Dynamic Schedule for Layered Decoding of LDPC
+    Codes.''
+    \textit{IEEE Transactions on Vehicular Technology},
+    74(8):13156--13160, 2025.
+    \paperlink{https://doi.org/10.1109/TVT.2025.3551240}
+
+  \item Yangcan Zhou, \me, and Zhongfeng Wang.
+    ``Efficient Soft-Cancellation Flip Decoding of Polar Codes.''
+    \textit{IEEE Communications Letters}, 28(8):1745--1749, 2024.
+    \paperlink{https://doi.org/10.1109/LCOMM.2024.3418773}
+
+  \item \me, Yangcan Zhou, Jingjing Zhu, and Zhongfeng Wang.
+    ``An Efficient Puncturing Scheme for Polar Codes Based on Fixed
+    Information Set.''
+    \textit{In ICCC 2023}.
+    \paperlink{https://doi.org/10.1109/ICCC59590.2023.10507424}
+
+  \item \me, Yangcan Zhou, and Zhongfeng Wang. 
+    ``A Second Minimum Approximation Method for Layered Min-Sum Decoding of QC-LDPC Codes,'' 
+    \textit{In ICTC 2023}.
+    \paperlink{https://ieeexplore.ieee.org/abstract/document/10154580}
+\end{itemize}
+
+\resumesection{Experience}
+
+\experience{Princeton University}
+           {Princeton, NJ, USA}
+           {Graduate Research Assistant}
+           {Aug 2024 -- Present}
+\begin{experienceitems}
+  \item Advisor: Prof. Wyatt Lloyd.
+  \item Topic: Design, implementation and evaluation of efficient and practical distributed systems. 
+  \item \textbf{Avicenna:} A replicated state machine protocol that tolerates
+    a slow replica without sacrificing normal-case latency.
+    \textbf{[EuroSys '26]}
+    \paperlink{https://doi.org/10.1145/3767295.3803615}
+    \codelink{https://github.com/princeton-sns/Avicenna-eurosys2026}
+    \begin{itemize}
+      \item Designed a counterfactual evaluation mechanism to detect the slow leader. 
+      \item Optimized the leader rotation protocol to reduce the overhead of leader changes.
+    \end{itemize}
+  \item \textbf{[On going]} A geo-distributed replicated state machine protocol that allows low-latency linearizable
+    local reads.
+  \item \textbf{[On going]} An agentic workflow system that makes distributed
+    system evaluation more realistic.
+\end{experienceitems}
+
+\experience{Nanjing University}
+           {Nanjing, Jiangsu, China}
+           {Undergraduate Research Assistant}
+           {April 2022 -- July 2024}
+\begin{experienceitems}
+  \item Advisor: Prof. Zhongfeng Wang.
+  \item Topic: Code design and decoder optimization for error correction codes in wireless communications.
+  \item Decoder optimization for LDPC codes and polar codes with better error rates and higher efficientcy.
+  \item Code design of arbitrary-length polar codes with better error rates.
+\end{experienceitems}
+
+\resumesection{Teaching Experience}
+\begin{itemize}
+  \item \textbf{Graduate Teaching Assistant, Princeton University}
+    \begin{itemize}
+      \dateditem{COS 418: Distributed Systems}{09/2025 -- 12/2025}
+      \dateditem{COS 316: Principles of Computer System Design}{02/2026 -- 5/2026}
+    \end{itemize}
+\end{itemize}
+
+\resumesection{Awards}
+\begin{itemize}
+  \item {\textbf{Best Paper Award of EuroSys 2026} \hfill 2026
+   \\2 / 319 submissions, 2 / 59 accepted papers}
+   %\\For the paper ``Avicenna: Masking Slowdowns in Replicated State Machines with Counterfactual Evaluation''}
+  \item {\textbf{Chenxue Alumni Scholarship} \hfill 2024
+   \\For academic performance and future studies}
+  \item {\textbf{Xiaomi Scholarship} \hfill 2023 
+   \\1/208 for academic performance}
+                %\item {\textbf{Second Prize for Undergraduate Electronic design contest-2022 Embedded System Design Invitational Contest}, intel cup \hfill 2022}
+                %s\item {\textbf{``Intel Cup'' Embedded System Design Invitational Contest} \hfill 2022
+                %\\ National second prize}
+  \item {\textbf{First prize of People's Scholarship} \hfill 2022 
+   \\Top 5\% for academic performance}
+  \item {\textbf{01 Alumni E-scholarship} \hfill 2021
+   \\Top 2\% for academic performance}
+\end{itemize}
+
+% \resumesection{Academic Service}
+% \begin{itemize}
+%   \item \textbf{Reviewer:} Conference A ('24, '25, '26), Conference B
+%     ('24, '25), Conference C ('25), and Journal Name.
+% \end{itemize}
+
+% \resumesection{Honors}
+% \begin{itemize}
+%   \item Example University Graduate Fellowship
+%   \item Outstanding Research or Teaching Award
+% \end{itemize}
 
 \end{document}
