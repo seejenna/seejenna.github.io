@@ -28,7 +28,7 @@ My research focuses on the design, implementation, and evaluation of efficient a
 - *2024.8 - 2029.5 (expected)*, Princeton University, Princeton, NJ, USA.<br>
   Ph.D. in Computer Science
 - *2020.9 - 2024.6*, Nanjing University, Nanjing, China.<br>
-  B.E. in Telecommunications Engineering
+  B.E. in the School of Electronic Science and Engineering
 
 <span class='anchor' id='research-projects'></span>
 
